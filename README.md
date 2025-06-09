@@ -73,12 +73,24 @@ Each test packet includes:
 
 ## 📂 File Structure
 .
-├── src/ # Verilog source files
-│ ├── alu.v # Main ALU design
-│ └── alu_tb.v # Testbench
-├── test_vectors/
-│ ├── stimulus.txt # Input packets
-│ └── result.txt # Output verification
-├── README.md # This file
+# --> Design Code Folder
+
+ 1.ALU_design file (.v)
+ 2.Define file
+
+# --> Design Document Folder
+
+ 1.ALU Design Document PDF
+ 2.Testcases file (Stimulus)
+
+# --> Test Bench Floder
+
+ 1.Normal Test Bench file (.v)
+ 2.Test Bench with driver/monitor (.v)
+ 3.Stimulus file (.txt)
+
+# -->README.md 
+
+  This file
 
 
